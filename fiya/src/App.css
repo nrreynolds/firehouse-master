@@ -1,0 +1,45 @@
+.App {
+  background: black url("http://www.netanimations.net/Animated-clip-art-down-in-flames.gif") no-repeat fixed left top;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+nav {
+  align-items: center;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.house {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.house-list {
+  height: 100%;
+  width: 40%;
+  overflow: scroll;
+}
+
+.house-ind {
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+  background-color: rgba(100,149,237, 0.3);
+}
+
